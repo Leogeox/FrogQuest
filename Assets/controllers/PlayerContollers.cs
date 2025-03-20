@@ -19,7 +19,6 @@ public class PlayerContollers : MonoBehaviour
     [SerializeField] private int _limitJump = 2;
     private int _currentJump;
 
-
     void Awake()
     {
         TryGetComponent(out _rgbd2d);
@@ -60,7 +59,6 @@ public class PlayerContollers : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
-        _currentJump = 0;
+            _currentJump = 0;
     }
-
 }
