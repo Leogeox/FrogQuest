@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 public class PlayerContollers : MonoBehaviour
@@ -38,17 +39,18 @@ public class PlayerContollers : MonoBehaviour
     private bool _isLadder;
     private bool _isClimbing;
 
-    [Header("WallJump")]
-    public Sprite[] syanding;
-    public Sprite[] crouching;
-    private BoxCollider _boxCollider;
+    [Header("Crouch/Ramp")]
+    public Transform playerTransform;
+    public float normalHeight, crouchHeight, rampHeight;
+    public float speedCrouch = 1;
+    public float speedRamp = 1;
+
     void Awake()
     {
         TryGetComponent(out _rgbd2d);
         TryGetComponent(out _collider2D);
         TryGetComponent(out _spriteRend);
         TryGetComponent(out _transform);
-        TryGetComponent(out _boxCollider);
     }
 
 
@@ -68,6 +70,10 @@ public class PlayerContollers : MonoBehaviour
         {
             _isClimbing = true;
         }
+
+        Crouch();
+        Ramp();
+
     }
 
     private void FixedUpdate()
@@ -99,7 +105,6 @@ public class PlayerContollers : MonoBehaviour
                 _transform.rotation = Quaternion.Euler(0, 0, 0);
 
         }
-        //_spriteRend.flipX = Input.GetAxis("Horizontal") < 0;
 
         _transform.position += Vector3.right * Input.GetAxisRaw("Horizontal") * speedMove * Time.deltaTime;
     }
@@ -173,6 +178,36 @@ public class PlayerContollers : MonoBehaviour
         {
             _isLadder = false;
             _isClimbing = false;
+        }
+    }
+
+    void Crouch()
+    {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            playerTransform.localScale = new Vector3(playerTransform.localScale.x, crouchHeight, playerTransform.localScale.z);
+            speedMove = speedCrouch;
+            _rgbd2d.gravityScale = 0f;
+        }
+        if (Input.GetKeyUp(KeyCode.C))
+        {
+            playerTransform.localScale = new Vector3(playerTransform.localScale.x, normalHeight, playerTransform.localScale.z);
+            speedMove = 4;
+            _rgbd2d.gravityScale = 3f;
+        }
+    }
+
+    void Ramp()
+    {
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            playerTransform.localScale = new Vector3(playerTransform.localScale.x, rampHeight, playerTransform.localScale.z);
+            speedMove = speedRamp;
+        }
+        if (Input.GetKeyUp(KeyCode.V))
+        {
+            playerTransform.localScale = new Vector3(playerTransform.localScale.x, normalHeight, playerTransform.localScale.z);
+            speedMove = 4;
         }
     }
 }
