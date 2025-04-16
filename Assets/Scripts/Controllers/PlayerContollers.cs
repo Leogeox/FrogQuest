@@ -1,3 +1,4 @@
+﻿using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static UnityEditor.Searcher.SearcherWindow.Alignment;
@@ -13,13 +14,11 @@ public class PlayerContollers : MonoBehaviour
     public float _distanceDW;
     public LayerMask detectground;
 
-    [Header("Move")]
-    public float speedMove = 4;
-
     [Header("Jump")]
-    [SerializeField] public float forcejump = 10;
     [SerializeField] public int limitJump = 2;
     private int _currentJump;
+    public int speedMove = 5;
+    [SerializeField] public float forcejump = 15 ;
 
     [Header("WallSliding")]
     [SerializeField] public float wallSlidespeed = 0;
@@ -42,8 +41,8 @@ public class PlayerContollers : MonoBehaviour
     [Header("Crouch/Ramp")]
     public Transform playerTransform;
     public float normalHeight, crouchHeight, rampHeight;
-    public float speedCrouch = 1;
-    public float speedRamp = 1;
+    public int speedCrouch = 4;
+    public int speedRamp = 3;
 
     void Awake()
     {
@@ -52,7 +51,6 @@ public class PlayerContollers : MonoBehaviour
         TryGetComponent(out _spriteRend);
         TryGetComponent(out _transform);
     }
-
 
     void Update()
     {
@@ -73,8 +71,8 @@ public class PlayerContollers : MonoBehaviour
 
         Crouch();
         Ramp();
-
     }
+
 
     private void FixedUpdate()
     {
@@ -87,6 +85,7 @@ public class PlayerContollers : MonoBehaviour
         {
             _rgbd2d.gravityScale = 3f;
         }
+
     }
 
     void Move()
@@ -109,19 +108,18 @@ public class PlayerContollers : MonoBehaviour
         _transform.position += Vector3.right * Input.GetAxisRaw("Horizontal") * speedMove * Time.deltaTime;
     }
 
-
     void Jump()
     {
         _rgbd2d.linearVelocity = Vector2.up * forcejump;
         _currentJump++;
     }
 
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Ground") || collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
             _currentJump = 0;
     }
-
 
     void Slide()
     {
@@ -145,13 +143,6 @@ public class PlayerContollers : MonoBehaviour
         }
     }
 
-    void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawCube(wallCheckPoint.position, wallCheckSize);
-    }
-
-
     void WallJumping()
     {
         wallJumpDirection *= -1;
@@ -163,13 +154,13 @@ public class PlayerContollers : MonoBehaviour
         }
     }
 
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Ladder"))
         {
             _isLadder = true;
         }
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)
