@@ -1837,7 +1837,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0738b313f82502b45a177a3d2680f0f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1758318494}
+  _target: {fileID: 1758318494}
+  _sizeBoxCast: {x: 1.1, y: 1.1}
+  _offsetBoxCast: {x: 1.04, y: -2.5}
+  _smoothTime: 0.5
 --- !u!1 &2090972516
 GameObject:
   m_ObjectHideFlags: 0
