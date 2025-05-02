@@ -4,7 +4,7 @@ using UnityEngine;
 public class ObjectsBehevior : MonoBehaviour
 {
     public int id;
-    private ObjectsData data;
+    private ObjectsData _data;
 
     private SpriteRenderer _spriteRend;
     private Collider2D _collider2d;
@@ -17,19 +17,20 @@ public class ObjectsBehevior : MonoBehaviour
 
     void Start()
     {
-        data = DataBaseManager.Instance.GetData(id);
+        _data = DataBaseManager.Instance.GetData(id);
         Init();
     }
 
     private void Init()
     {
-        _spriteRend.sprite = data.sprite;
+        _spriteRend.sprite = _data.sprite;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        //var existingData = DataBaseManager.Instance.dataBaseObjects(id => id.label == data.label);
+        //var existingData = DataBaseManager.Instance.dataBaseObjects(id => id.label == _data.label);
+
 
         if (collision.gameObject.CompareTag("Player"))
         {
@@ -37,14 +38,10 @@ public class ObjectsBehevior : MonoBehaviour
             Destroy(gameObject);
 
 
-            //if (existingData != null)
-            //{
-            //existingData.value += 1;
-            //}
-            //else
-            //{
-            //DataBaseManager.Instance.dataBaseObjects.Add(new ObjectsData(data.label, 1, data.sprite));
-            //}
+        //    if (existingData != null)
+        //    {
+        //        existingData.value += 1;
+        //    }
         }
     }   
 }

@@ -54,20 +54,5 @@ namespace A1_24_25
         }
 
         public void ChangeTarget(Transform newTarget) => _target = newTarget;
-
-
-        private void OnDrawGizmosSelected()
-        {
-            var offsetPos = transform.position + (Vector3)_offsetBoxCast;
-            var sizeCross = .25f;
-
-            Gizmos.color = _sizeBoxCast.x < 0 || _sizeBoxCast.y < 0 ? new Color(1, 0, 0, .25f) : new Color(0, 1, 0, .25f);
-            Gizmos.DrawCube(offsetPos, _sizeBoxCast * 2);
-
-            Gizmos.color = Color.yellow;
-            Gizmos.DrawWireCube(offsetPos, _sizeBoxCast * 2);
-            Gizmos.DrawLine(offsetPos + Vector3.left * sizeCross, offsetPos + Vector3.right * sizeCross);
-            Gizmos.DrawLine(offsetPos + Vector3.down * sizeCross, offsetPos + Vector3.up * sizeCross);
-        }
     }
 }

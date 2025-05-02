@@ -5,7 +5,7 @@ public class PlayerStats : MonoBehaviour
     [Header("Stats")]
     public int life = 3;
     private Rigidbody2D _rgbd2d;
-    private float fallSpeedY;
+    private bool isFalling;
     private float relVelY;
 
     private void Start()
@@ -13,7 +13,7 @@ public class PlayerStats : MonoBehaviour
         TryGetComponent(out _rgbd2d);
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         relVelY = _rgbd2d.linearVelocity.y;
 
@@ -24,12 +24,12 @@ public class PlayerStats : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
-            if (relVelY < -30)
+            if (relVelY < -60)
             {
                 life = 0;
                 Debug.Log("0 hearts");
             }
-            else if (relVelY > -15)
+            else if (relVelY > -30)
             {
                 life--;
                 Debug.Log(life);
