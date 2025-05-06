@@ -8,6 +8,9 @@ TagManager:
   - Key
   - Parchemin
   - Gold
+  - Audio
+  - Grass
+  - NonGrass
   layers:
   - Default
   - TransparentFX

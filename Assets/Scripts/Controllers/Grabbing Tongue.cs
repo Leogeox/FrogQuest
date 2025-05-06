@@ -8,7 +8,13 @@ public class GrabbingTonghue : MonoBehaviour
 
     private Vector3 grapplePoint;
     private DistanceJoint2D joint;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     void Start()
     {
         joint = GetComponent<DistanceJoint2D>();
@@ -38,6 +44,9 @@ public class GrabbingTonghue : MonoBehaviour
                 tongue.SetPosition(0, grapplePoint);
                 tongue.SetPosition(1, transform.position);
                 tongue.enabled = true;
+                audioManager.PlaySFX(audioManager.useTongue);
+                Debug.Log("player tongue");
+
             }
         }
 

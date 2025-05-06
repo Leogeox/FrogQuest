@@ -12,6 +12,13 @@ public class GrabController : MonoBehaviour
     private GameObject grabbedObject;
     public LayerMask _layerIndex;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     void Start()
     {
         //_layerIndex = LayerMask.NameToLayer("Objects");
@@ -48,6 +55,17 @@ public class GrabController : MonoBehaviour
         grabbedObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
         grabbedObject.transform.SetParent(null);
         grabbedObject = null;
+
+        if (gameObject.CompareTag("NonGrass"))
+        {
+            audioManager.PlaySFX(audioManager.fall);
+            Debug.Log("player drop");
+        }
+        else
+        {
+            audioManager.PlaySFX(audioManager.fallOnGrass);
+            Debug.Log("player frop grass");
+        }
     }
 
 }

@@ -8,6 +8,13 @@ public class PlayerStats : MonoBehaviour
     private bool isFalling;
     private float relVelY;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     private void Start()
     {
         TryGetComponent(out _rgbd2d);
@@ -28,17 +35,39 @@ public class PlayerStats : MonoBehaviour
             {
                 life = 0;
                 Debug.Log("0 hearts");
+
+                if (gameObject.CompareTag("NonGrass"))
+                {
+                    audioManager.PlaySFX(audioManager.death);
+                }
             }
             else if (relVelY > -30)
             {
                 life--;
                 Debug.Log(life);
+
+                if (gameObject.CompareTag("NonGrass"))
+                {
+                    audioManager.PlaySFX(audioManager.fall);
+                    Debug.Log("player fall");
+                }
+                else if (gameObject.CompareTag("Grass"))
+                {
+                    audioManager.PlaySFX(audioManager.fallOnGrass);
+                    Debug.Log("player fall grass");
+                }
             }
         }
 
         if (life <= 0)
         {
             Debug.Log("Game Over");
+
+            if (gameObject.layer == LayerMask.NameToLayer("Ground") || gameObject.layer == LayerMask.NameToLayer("Wall"))
+            {
+                audioManager.PlaySFX(audioManager.death);
+                Debug.Log("player dead");
+            }
         }
     }
 }

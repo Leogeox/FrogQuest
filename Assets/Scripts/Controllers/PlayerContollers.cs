@@ -44,12 +44,16 @@ public class PlayerContollers : MonoBehaviour
     public int speedCrouch = 4;
     public int speedRamp = 3;
 
+    AudioManager audioManager;
+
     void Awake()
     {
         TryGetComponent(out _rgbd2d);
         TryGetComponent(out _collider2D);
         TryGetComponent(out _spriteRend);
         TryGetComponent(out _transform);
+
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     void Update()
@@ -93,8 +97,25 @@ public class PlayerContollers : MonoBehaviour
         Vector3 direction = Input.GetAxis("Horizontal") * Vector2.right;
 
         var ground = Physics2D.BoxCast(_transform.position, Vector2.one, 0, direction, _distanceDW, detectground);
+
+        if (ground.collider != null && Mathf.Abs(Input.GetAxis("Horizontal")) > 0.1f)
+        {
+            if (ground.collider.CompareTag("NonGrass"))
+            {
+                audioManager.PlaySFX(audioManager.walk);
+                Debug.Log("player walk");
+            }
+            else if (ground.collider.CompareTag("Grass"))
+            {
+                audioManager.PlaySFX(audioManager.walkOnGrass);
+                Debug.Log("player walk on grass");
+            }
+        }
+
         if (ground.collider != null)
+        {
             return;
+        }
 
         if (!Input.GetKey(KeyCode.LeftControl))
         {
@@ -112,6 +133,17 @@ public class PlayerContollers : MonoBehaviour
     {
         _rgbd2d.linearVelocity = Vector2.up * forcejump;
         _currentJump++;
+
+        if (gameObject.CompareTag("NonGrass"))
+        {
+            audioManager.PlaySFX(audioManager.jump);
+            Debug.Log("player jump");
+        }
+        else if (gameObject.CompareTag("Grass"))
+        {
+            audioManager.PlaySFX(audioManager.jumpGrass);
+            Debug.Log("player jump grass");
+        }
     }
 
 
@@ -151,6 +183,17 @@ public class PlayerContollers : MonoBehaviour
         {
             _rgbd2d.AddForce(new Vector2(wallJumpForce * wallJumpDirection * wallJumpAngle.x, wallJumpForce * wallJumpAngle.y), ForceMode2D.Impulse);
             _currentWallJump++;
+
+            if (gameObject.CompareTag("NonGrass"))
+            {
+                audioManager.PlaySFX(audioManager.jump);
+                Debug.Log("player jump");
+            }
+            else if (gameObject.CompareTag("Grass"))
+                Debug.Log("player jump grass");
+            {
+                audioManager.PlaySFX(audioManager.jumpGrass);
+            }
         }
     }
 
@@ -159,6 +202,8 @@ public class PlayerContollers : MonoBehaviour
         if (collision.CompareTag("Ladder"))
         {
             _isLadder = true;
+            audioManager.PlaySFX(audioManager.climbingLadder);
+            Debug.Log("player ladder");
         }
 
     }
@@ -179,6 +224,18 @@ public class PlayerContollers : MonoBehaviour
             playerTransform.localScale = new Vector3(playerTransform.localScale.x, crouchHeight, playerTransform.localScale.z);
             speedMove = speedCrouch;
             _rgbd2d.gravityScale = 0f;
+
+            if (gameObject.CompareTag("NonGrass"))
+            {
+                audioManager.PlaySFX(audioManager.walk);
+                Debug.Log("player walk");
+            }
+            else if (gameObject.CompareTag("Grass"))
+            {
+                audioManager.PlaySFX(audioManager.walkOnGrass);
+                Debug.Log("player walk grass");
+            }
+
         }
         if (Input.GetKeyUp(KeyCode.C))
         {
@@ -194,6 +251,17 @@ public class PlayerContollers : MonoBehaviour
         {
             playerTransform.localScale = new Vector3(playerTransform.localScale.x, rampHeight, playerTransform.localScale.z);
             speedMove = speedRamp;
+
+            if (gameObject.CompareTag("NonGrass"))
+            {
+                audioManager.PlaySFX(audioManager.walk);
+                Debug.Log("player walk");
+            }
+            else if (gameObject.CompareTag("Grass"))
+            {
+                audioManager.PlaySFX(audioManager.walkOnGrass);
+                Debug.Log("player walk grass");
+            }
         }
         if (Input.GetKeyUp(KeyCode.V))
         {
