@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ladder
+  - Key
+  - Parchemin
+  - Gold
+  - Audio
+  - Grass
+  - NonGrass
   layers:
   - Default
   - TransparentFX
