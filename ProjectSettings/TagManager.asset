@@ -11,6 +11,7 @@ TagManager:
   - Audio
   - Grass
   - NonGrass
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/FrogQuest.unity
+    guid: 13cd8f0bc35ae85468ca490cbfff4400
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: 8f735ac9774e6a147b608695829e6e9f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

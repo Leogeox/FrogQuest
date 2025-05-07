@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GrabbingTonghue : MonoBehaviour
+public class GrabbingTongue : MonoBehaviour
 {
     [SerializeField] private float grappleLenght;
     [SerializeField] private LayerMask grappleLayer;
@@ -25,7 +25,7 @@ public class GrabbingTonghue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             RaycastHit2D hit = Physics2D.Raycast(
             origin: Camera.main.ScreenToWorldPoint(Input.mousePosition),
@@ -34,7 +34,7 @@ public class GrabbingTonghue : MonoBehaviour
             layerMask: grappleLayer
             );
 
-            if (hit.collider !=null)
+            if (hit.collider != null)
             {
                 grapplePoint = hit.point;
                 grapplePoint.z = 0;
@@ -50,13 +50,13 @@ public class GrabbingTonghue : MonoBehaviour
             }
         }
 
-        if(Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0))
         {
             joint.enabled = false;
             tongue.enabled = false;
         }
 
-        if(tongue.enabled == true)
+        if (tongue.enabled == true)
         {
             tongue.SetPosition(1, transform.position);
         }
