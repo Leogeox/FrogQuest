@@ -13,15 +13,12 @@ MonoBehaviour:
   m_Name: DataBaseObjects
   m_EditorClassIdentifier: 
   datas:
-  - label: key
+  - label: Key
     value: 0
     sprite: {fileID: -9081656105329586201, guid: 4690e276f35f55147b44770af3aafff8, type: 3}
-    color: {r: 1, g: 1, b: 1, a: 1}
-  - label: parchemin
+  - label: Parchment
     value: 0
     sprite: {fileID: -79922822613739075, guid: 50892319678d9ad49862ce7151e4b6ad, type: 3}
-    color: {r: 1, g: 1, b: 1, a: 1}
-  - label: gold
+  - label: Coins
     value: 0
     sprite: {fileID: 4267056394318568467, guid: 70d4855be14f6d443a4f70f8232ea33c, type: 3}
-    color: {r: 1, g: 1, b: 1, a: 1}
