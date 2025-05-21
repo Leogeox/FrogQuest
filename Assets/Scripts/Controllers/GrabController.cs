@@ -19,10 +19,6 @@ public class GrabController : MonoBehaviour
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
-    void Start()
-    {
-        //_layerIndex = LayerMask.NameToLayer("Objects");
-    }
     void Update()
     {
         if (Keyboard.current.qKey.wasReleasedThisFrame)
