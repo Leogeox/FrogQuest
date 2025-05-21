@@ -15,7 +15,7 @@ public class PlayerContollers : MonoBehaviour
     public LayerMask detectground;
 
     [Header("Jump")]
-    [SerializeField] public int limitJump = 2;
+    [SerializeField] public int limitJump = 1;
     private int _currentJump;
     public int speedMove = 5;
     [SerializeField] public float forcejump = 15 ;

@@ -1,12 +1,17 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
 
-public class PlayerStats : MonoBehaviour
+public class PlayerLife : MonoBehaviour
 {
     [Header("Stats")]
     public int life = 3;
     private Rigidbody2D _rgbd2d;
     private bool isFalling;
     private float relVelY;
+
 
     AudioManager audioManager;
 
@@ -34,40 +39,45 @@ public class PlayerStats : MonoBehaviour
             if (relVelY < -60)
             {
                 life = 0;
-                Debug.Log("0 hearts");
-
-                if (gameObject.CompareTag("NonGrass"))
-                {
-                    audioManager.PlaySFX(audioManager.death);
-                }
+                GameOver();
+                
             }
             else if (relVelY > -30)
             {
                 life--;
                 Debug.Log(life);
 
-                if (gameObject.CompareTag("NonGrass"))
+                if (collision.gameObject.CompareTag("NonGrass"))
                 {
                     audioManager.PlaySFX(audioManager.fall);
                     Debug.Log("player fall");
                 }
-                else if (gameObject.CompareTag("Grass"))
+                else if (collision.gameObject.CompareTag("Grass"))
                 {
                     audioManager.PlaySFX(audioManager.fallOnGrass);
                     Debug.Log("player fall grass");
                 }
             }
         }
+    }
 
-        if (life <= 0)
+    public void GameOver()
+    {
+        if (life == 0)
         {
             Debug.Log("Game Over");
-
-            if (gameObject.layer == LayerMask.NameToLayer("Ground") || gameObject.layer == LayerMask.NameToLayer("Wall"))
-            {
-                audioManager.PlaySFX(audioManager.death);
-                Debug.Log("player dead");
-            }
+            audioManager.PlaySFX(audioManager.death);
+            Time.timeScale = 0f;
         }
+    }
+
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene("StartMenu");
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene("FrogQuest");
     }
 }
