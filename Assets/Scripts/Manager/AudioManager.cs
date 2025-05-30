@@ -1,14 +1,27 @@
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager instance;
+
     [Header("AUDIO MIXER")]
-    [SerializeField] private AudioMixer audioMixer;
+    [SerializeField] AudioMixer audioMixer;
 
     [Header("AUDIO SOURCE")]
     [SerializeField] AudioSource musicSource;
     [SerializeField] AudioSource SFXSource;
+
+    [Header("SLIDERS")]
+    [SerializeField] Slider audioSlider;
+    [SerializeField] Slider musicSlider;
+    [SerializeField] Slider sfxSlider;
+
+    [Header("MIXERS")]
+    const string MIXER_MUSIC = "Music";
+    const string MIXER_SFX = "SFX";
+    const string MIXER_MASTER = "Master";
 
     [Header("AUDIO CLIP")]
     public AudioClip background;
@@ -27,6 +40,23 @@ public class AudioManager : MonoBehaviour
     public AudioClip keyDoorClose;
     public AudioClip NPCtalk;
 
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+        musicSlider.onValueChanged.AddListener(SetMusicVolume);
+        sfxSlider.onValueChanged.AddListener(SetSFXVolume);
+        audioSlider.onValueChanged.AddListener(SetMasterVolume);
+    }
+
     private void Start()
     {
         musicSource.clip = background;
@@ -37,23 +67,20 @@ public class AudioManager : MonoBehaviour
     {
         SFXSource.PlayOneShot(clip);
     }
-
-    public void SetMasterVolume(float value)
+    
+    void SetMusicVolume(float value)
     {
-        audioMixer.SetFloat("MasterVolume", Mathf.Log10(value) * 20);
-        Debug.Log("master");
+        audioMixer.SetFloat(MIXER_MUSIC, Mathf.Log10(value) * 20);
     }
 
-    public void SetMusicVolume(float value)
+    void SetSFXVolume(float value)
     {
-        audioMixer.SetFloat("MusicVolume", Mathf.Log10(value) * 20);
-        Debug.Log("music");
+        audioMixer.SetFloat(MIXER_SFX, Mathf.Log10(value) * 20);
     }
 
-    public void SetSFXVolume(float value)
+    void SetMasterVolume(float value)
     {
-        audioMixer.SetFloat("SFXVolume", Mathf.Log10(value) * 20);
-        Debug.Log("SFX");
+        audioMixer.SetFloat(MIXER_MASTER, Mathf.Log10(value) * 20);
     }
 
 }
