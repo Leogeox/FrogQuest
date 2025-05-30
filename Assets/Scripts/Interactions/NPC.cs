@@ -19,9 +19,9 @@ public class NPC : MonoBehaviour
     private int index;
     public GameObject contBtn;
     public float wordSpeed;
+    AudioManager audioManager;
 
     [SerializeField] private GrabbingTongue tongue;
-
 
     void Update()
     {
@@ -30,7 +30,6 @@ public class NPC : MonoBehaviour
             if (dialoguePanel.activeInHierarchy)
             {
                 zeroText();
-                tongue.enabled = true;
             }
             else
             {
@@ -40,7 +39,8 @@ public class NPC : MonoBehaviour
                     speakerName.text = Name[index];
                     dialogueText.text = string.Empty; // Clear text before typing
                     portraitImage.sprite = portrait[index];
-                    tongue.enabled = false;
+                    tongue.enabled = false; 
+                    // audioManager.PlaySFX(audioManager.NPCtalk);
                     StartCoroutine(Typing());
                 }
             }
@@ -52,8 +52,8 @@ public class NPC : MonoBehaviour
         if (index >= Name.Length || index >= dialogueWords.Length)
         {
             dialoguePanel.SetActive(false);
-            tongue.enabled = true;
             contBtn.SetActive(false);
+            tongue.enabled = true;
         }
     }
 
@@ -86,6 +86,8 @@ public class NPC : MonoBehaviour
             dialogueText.text = string.Empty;
             speakerName.text = Name[index];
             portraitImage.sprite = portrait[index];
+            tongue.enabled = false;
+            // audioManager.PlaySFX(audioManager.NPCtalk);
             contBtn.SetActive(true);
             StartCoroutine(Typing());
         }
@@ -103,6 +105,7 @@ public class NPC : MonoBehaviour
         {
             dialoguePanel.SetActive(false);
             playerisClose = false;
+            tongue.enabled = true;
             zeroText();
         }
     }

@@ -4,12 +4,21 @@ using UnityEngine;
 
 public class ParallaxLayer : MonoBehaviour
 {
-    public float mouvementScale;
-    public Camera mainCamera;
+    Material mat;
+    float distance;
+
+    [Range(0f, 0.5f)]
+    public float speed = 0.2f;
+
+    void Start()
+    {
+        mat = GetComponent<Renderer>().material;
+    }
 
     void Update()
     {
-        this.transform.position = new Vector3(mainCamera.transform.position.x * mouvementScale, mainCamera.transform.position.y * mouvementScale, mainCamera.transform.position.z * mouvementScale);
+        distance =Time.deltaTime * speed;
+        mat.SetTextureOffset("_MainTex", Vector2.right * distance);
     }
 
 }

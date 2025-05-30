@@ -8,6 +8,8 @@ public class InventoryHolder : MonoBehaviour
     public event EventHandler OnKeyChanged;
     private List<Key.KeyColor> keyList;
 
+    AudioManager audioManager;
+
     private void Awake()
     {
         keyList = new List<Key.KeyColor>();
@@ -23,6 +25,7 @@ public class InventoryHolder : MonoBehaviour
         Debug.Log("Key added");
         keyList.Add(keyColor);
         OnKeyChanged?.Invoke(this, EventArgs.Empty);
+        audioManager.PlaySFX(audioManager.keyPickup);
     }
 
     public bool ContainsKey(Key.KeyColor keyColor)

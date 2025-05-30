@@ -22,6 +22,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip climbingLadder;
     public AudioClip useTongue;
     public AudioClip death;
+    public AudioClip keyPickup;
+    public AudioClip keyDoorOpen;
+    public AudioClip keyDoorClose;
+    public AudioClip NPCtalk;
 
     private void Start()
     {

@@ -1,0 +1,817 @@
+fileFormatVersion: 2
+guid: 3eff7fea4e136aa4db8f5592fd1976e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5789865191418335519
+    second: animation - Course_0
+  - first:
+      213: 8304667924364258142
+    second: animation - Course_1
+  - first:
+      213: -1291043640958211024
+    second: animation - Course_2
+  - first:
+      213: -4710467986220535972
+    second: animation - Course_3
+  - first:
+      213: 7979687814593110898
+    second: animation - Course_4
+  - first:
+      213: -7559515750871862364
+    second: animation - Course_5
+  - first:
+      213: 389594433614968176
+    second: animation - Course_6
+  - first:
+      213: -9013582219365095770
+    second: animation - Course_7
+  - first:
+      213: 2738531674748749977
+    second: animation - Course_8
+  - first:
+      213: -8549467818471381603
+    second: animation - Course_9
+  - first:
+      213: -2701515736574930633
+    second: animation - Course_10
+  - first:
+      213: -6976284371026006992
+    second: animation - Course_11
+  - first:
+      213: -7320319460351222045
+    second: animation - Course_12
+  - first:
+      213: 6853563089857936229
+    second: animation - Course_13
+  - first:
+      213: -279221100402702287
+    second: animation - Course_14
+  - first:
+      213: 4221073080383452163
+    second: animation - Course_15
+  - first:
+      213: 5119616768982480636
+    second: animation - Course_16
+  - first:
+      213: -5276631777383576448
+    second: animation - Course_17
+  - first:
+      213: 165115838967817401
+    second: animation - Course_18
+  - first:
+      213: -3311731746044357732
+    second: animation - Course_19
+  - first:
+      213: -7141146773201560341
+    second: animation - Course_20
+  - first:
+      213: 3780090409071228477
+    second: animation - Course_21
+  - first:
+      213: -5416239823154396698
+    second: animation - Course_22
+  - first:
+      213: 1117839959489928123
+    second: animation - Course_23
+  - first:
+      213: -8842010761317170809
+    second: animation - Course_24
+  - first:
+      213: 257299264556732201
+    second: animation - Course_25
+  - first:
+      213: 1428667250141518293
+    second: animation - Course_26
+  - first:
+      213: 2615227508262244575
+    second: animation - Course_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animation - Course_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3265
+        width: 428
+        height: 831
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1193ef27bbb95050800000000000000
+      internalID: 5789865191418335519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_1
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 3261
+        width: 437
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5bef492a7b104370800000000000000
+      internalID: 8304667924364258142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_2
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 3256
+        width: 442
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ca82716aa451ee0800000000000000
+      internalID: -1291043640958211024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_3
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 3253
+        width: 448
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fa97bd25e01aeb0800000000000000
+      internalID: -4710467986220535972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_4
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 3255
+        width: 466
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273e5570acb8dbe60800000000000000
+      internalID: 7979687814593110898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_5
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 3258
+        width: 489
+        height: 831
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3ff430a74371790800000000000000
+      internalID: -7559515750871862364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_6
+      rect:
+        serializedVersion: 2
+        x: 2757
+        y: 3261
+        width: 512
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075f61eb21e186500800000000000000
+      internalID: 389594433614968176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_7
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 3257
+        width: 452
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a667fc3ab259e280800000000000000
+      internalID: -9013582219365095770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2399
+        width: 444
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9980e8f7c08310620800000000000000
+      internalID: 2738531674748749977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_9
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 2396
+        width: 437
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95216de0503a5980800000000000000
+      internalID: -8549467818471381603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_10
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 2395
+        width: 433
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731d25630c9428ad0800000000000000
+      internalID: -2701515736574930633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_11
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 2396
+        width: 454
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ca2e493524f2f90800000000000000
+      internalID: -6976284371026006992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_12
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 2398
+        width: 489
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eed26b4c30096a90800000000000000
+      internalID: -7320319460351222045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_13
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 2403
+        width: 500
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bf5b8815fbc1f50800000000000000
+      internalID: 6853563089857936229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_14
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 2408
+        width: 509
+        height: 820
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13804b873e1002cf0800000000000000
+      internalID: -279221100402702287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_15
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 2414
+        width: 519
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30438373a93449a30800000000000000
+      internalID: 4221073080383452163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1564
+        width: 520
+        height: 817
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6755593588c0740800000000000000
+      internalID: 5119616768982480636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_17
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1563
+        width: 522
+        height: 823
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c8382fa53a5c6b0800000000000000
+      internalID: -5276631777383576448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_18
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1563
+        width: 522
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4a7701bfb9a4200800000000000000
+      internalID: 165115838967817401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_19
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1567
+        width: 479
+        height: 820
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9354a5f58d5a02d0800000000000000
+      internalID: -3311731746044357732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_20
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 1561
+        width: 432
+        height: 820
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becd46e58dc85ec90800000000000000
+      internalID: -7141146773201560341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_21
+      rect:
+        serializedVersion: 2
+        x: 2643
+        y: 1556
+        width: 425
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d363d830334957430800000000000000
+      internalID: 3780090409071228477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_22
+      rect:
+        serializedVersion: 2
+        x: 3076
+        y: 1558
+        width: 430
+        height: 823
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1ce8ac396a5d4b0800000000000000
+      internalID: -5416239823154396698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_23
+      rect:
+        serializedVersion: 2
+        x: 3511
+        y: 1559
+        width: 434
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb5225458d538f00800000000000000
+      internalID: 1117839959489928123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 715
+        width: 437
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781428f3f0eda4580800000000000000
+      internalID: -8842010761317170809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_25
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 721
+        width: 437
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f8fd0615c129300800000000000000
+      internalID: 257299264556732201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_26
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 726
+        width: 438
+        height: 823
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d95bea6b45a3d310800000000000000
+      internalID: 1428667250141518293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Course_27
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 732
+        width: 444
+        height: 817
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd01dcc00972b4420800000000000000
+      internalID: 2615227508262244575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

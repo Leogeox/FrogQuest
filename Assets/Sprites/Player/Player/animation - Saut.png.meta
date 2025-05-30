@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: 5c603afe4d1b07341a0f6245af2d09f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6479301793795739173
+    second: animation - Saut_0
+  - first:
+      213: 880495996320046108
+    second: animation - Saut_1
+  - first:
+      213: 2951933952856352501
+    second: animation - Saut_2
+  - first:
+      213: -339272824023436920
+    second: animation - Saut_3
+  - first:
+      213: 2190385507558546990
+    second: animation - Saut_4
+  - first:
+      213: -4371312090181951978
+    second: animation - Saut_5
+  - first:
+      213: 5752417892957018202
+    second: animation - Saut_6
+  - first:
+      213: 8302435992234535619
+    second: animation - Saut_7
+  - first:
+      213: -6251060781351341553
+    second: animation - Saut_8
+  - first:
+      213: 8870568861452334414
+    second: animation - Saut_9
+  - first:
+      213: 6417419837976079612
+    second: animation - Saut_10
+  - first:
+      213: -2890444002580027280
+    second: animation - Saut_11
+  - first:
+      213: -6251129742475009945
+    second: animation - Saut_12
+  - first:
+      213: 1665477861260611570
+    second: animation - Saut_13
+  - first:
+      213: 5317175829812512523
+    second: animation - Saut_14
+  - first:
+      213: 5843609113064506999
+    second: animation - Saut_15
+  - first:
+      213: 4976379397476780719
+    second: animation - Saut_16
+  - first:
+      213: 401874039948809176
+    second: animation - Saut_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animation - Saut_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3264
+        width: 429
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e0fb317aa1be950800000000000000
+      internalID: 6479301793795739173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_1
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 3289
+        width: 453
+        height: 795
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c5fce8176283c00800000000000000
+      internalID: 880495996320046108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_2
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 3315
+        width: 475
+        height: 763
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6ea644a4067f820800000000000000
+      internalID: 2951933952856352501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_3
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 3342
+        width: 496
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881b3220a29aa4bf0800000000000000
+      internalID: -339272824023436920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_4
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 3311
+        width: 542
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ed0339300d56e10800000000000000
+      internalID: 2190385507558546990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_5
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 3279
+        width: 615
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e955e60daf553c0800000000000000
+      internalID: -4371312090181951978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_6
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 3250
+        width: 549
+        height: 841
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58dd459891b4df40800000000000000
+      internalID: 5752417892957018202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2437
+        width: 582
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3caae87fb8d283370800000000000000
+      internalID: 8302435992234535619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_8
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 2453
+        width: 612
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f027d22c655cf39a0800000000000000
+      internalID: -6251060781351341553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_9
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 2471
+        width: 637
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45f18691679a1b70800000000000000
+      internalID: 8870568861452334414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_10
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 2460
+        width: 589
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfceb1977514f0950800000000000000
+      internalID: 6417419837976079612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_11
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 2446
+        width: 532
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0782f0f6e7413e7d0800000000000000
+      internalID: -2890444002580027280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_12
+      rect:
+        serializedVersion: 2
+        x: 3148
+        y: 2434
+        width: 477
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760e5ee7e968f39a0800000000000000
+      internalID: -6251129742475009945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_13
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1612
+        width: 569
+        height: 796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff47bd6a47fc1710800000000000000
+      internalID: 1665477861260611570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_14
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1617
+        width: 573
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b078440ee376ac940800000000000000
+      internalID: 5317175829812512523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_15
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1621
+        width: 476
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776027e078ba81150800000000000000
+      internalID: 5843609113064506999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_16
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1607
+        width: 446
+        height: 794
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa0d2e22b6af0540800000000000000
+      internalID: 4976379397476780719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Saut_17
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 1596
+        width: 434
+        height: 812
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d399936f4eb39500800000000000000
+      internalID: 401874039948809176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
