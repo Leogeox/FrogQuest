@@ -15,19 +15,19 @@ public class GameOver : MonoBehaviour
         gameover.SetActive(false);
     }
 
-    // void Update()
-    // {
-    //     if (player.life <= 0)
-    //     {
-    //         gameover.SetActive(true);
-    //         tongue.enabled = false;
-    //         tongue.enabled = false;
-    //     }
-    //     else
-    //     {
-    //         gameover.SetActive(false);
-    //     }
-    // }
+    void Update()
+    {
+        if (player.life <= 0)
+        {
+            gameover.SetActive(true);
+            tongue.enabled = false;
+            tongue.enabled = false;
+        }
+        else
+        {
+            gameover.SetActive(false);
+        }
+    }
 
     public void GoToMainMenu()
     {
