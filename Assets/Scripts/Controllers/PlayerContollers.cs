@@ -3,9 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerContollers : MonoBehaviour
 {
-    private Collider2D _collider2D;
-    private SpriteRenderer _spriteRend;
-    private Transform _transform;
+    private Collider2D _boxcollider;
 
     [SerializeField] private GameObject player;
 
@@ -21,9 +19,9 @@ public class PlayerContollers : MonoBehaviour
 
     [Header("Jump")]
     [SerializeField] public int limitJump = 1;
-    private int _currentJump;
-    [SerializeField] public float forcejump = 15 ;
-    public bool isGrounded = false;
+    [SerializeField] public float forcejump = 8;
+    public bool isGrounded = true;
+
 
     [Header("WallSliding")]
     [SerializeField] public float wallSlidespeed = 0;
@@ -44,11 +42,11 @@ public class PlayerContollers : MonoBehaviour
     private bool _isClimbing;
 
     [Header("Crouch/Ramp")]
-    public Transform playerTransform;
-    public float normalHeight, crouchHeight, rampHeight;
+
+    public float crouchHeight, crouchWidth, rampHeight, rampWidth;
     public int speedCrouch = 4;
     public int speedRamp = 3;
-    
+
 
     AudioManager audioManager;
     public Animator animator;
@@ -56,9 +54,7 @@ public class PlayerContollers : MonoBehaviour
     void Awake()
     {
         TryGetComponent(out rb);
-        TryGetComponent(out _collider2D);
-        TryGetComponent(out _spriteRend);
-        TryGetComponent(out _transform);
+        TryGetComponent(out _boxcollider);
 
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         animator = GetComponent<Animator>();
@@ -66,7 +62,6 @@ public class PlayerContollers : MonoBehaviour
 
     void Update()
     {
-
         horizontal = Input.GetAxisRaw("Horizontal");
         if (Mathf.Abs(horizontal) > 0.1f)
         {
@@ -83,11 +78,15 @@ public class PlayerContollers : MonoBehaviour
 
         Flip();
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcejump);
             isGrounded = false;
-            animator.SetBool("isJumping", !isGrounded);
+            animator.SetBool("isJumping", true);
+        }
+        else
+        {
+            animator.SetBool("isJumping", false);
         }
 
         Slide();
@@ -103,12 +102,13 @@ public class PlayerContollers : MonoBehaviour
         Ramp();
     }
 
-
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(horizontal * speedMove, rb.linearVelocity.y);
         animator.SetFloat("xVelocity", Mathf.Abs(rb.linearVelocity.x));
         animator.SetFloat("yVelocity", rb.linearVelocity.y);
+
+        isGrounded = Physics2D.OverlapBox(groundCheck.position, new Vector2(0.5f, 0.1f), 0f, groundLayer);
 
         if (_isClimbing)
         {
@@ -121,7 +121,7 @@ public class PlayerContollers : MonoBehaviour
         }
 
     }
-    
+
 
     private void Flip()
     {
@@ -133,6 +133,13 @@ public class PlayerContollers : MonoBehaviour
             transform.localScale = localScale;
         }
     }
+
+    // void OnCollisionEnter2D(Collision2D collision)
+    // {
+    //     if (collision.gameObject.layer == LayerMask.NameToLayer("Ground") || collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
+    //     {;
+    //     }
+    // }
 
 
     // void Move()
@@ -259,12 +266,12 @@ public class PlayerContollers : MonoBehaviour
         if (isOnWall && rb.linearVelocity.y < 0)
         {
             isSliding = true;
-            animator.SetBool("isSliding", isSliding);
+            animator.SetBool("isSliding", true);
         }
         else
         {
             isSliding = false;
-            animator.SetBool("isSliding", isSliding);
+            animator.SetBool("isSliding", false);
         }
 
         if (isSliding)
@@ -295,15 +302,13 @@ public class PlayerContollers : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        isGrounded = true;
-        animator.SetBool("isJumping", !isGrounded);
 
         if (collision.CompareTag("Ladder"))
         {
             _isLadder = true;
             audioManager.PlaySFX(audioManager.climbingLadder);
         }
-        
+
 
     }
 
@@ -320,30 +325,27 @@ public class PlayerContollers : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.C))
         {
-            playerTransform.localScale = new Vector3(playerTransform.localScale.x, crouchHeight, playerTransform.localScale.z);
+            animator.SetBool("isSneaking", true);
             speedMove = speedCrouch;
-            rb.gravityScale = 0f;
-
         }
         if (Input.GetKeyUp(KeyCode.C))
         {
-            playerTransform.localScale = new Vector3(playerTransform.localScale.x, normalHeight, playerTransform.localScale.z);
-            speedMove = 4;
-            rb.gravityScale = 1f;
+            animator.SetBool("isSneaking", false);
+            speedMove = 5;
         }
     }
-
+    
     void Ramp()
     {
-        if (Input.GetKeyDown(KeyCode.V))
+        if (Input.GetKeyDown(KeyCode.V))   
         {
-            playerTransform.localScale = new Vector3(playerTransform.localScale.x, rampHeight, playerTransform.localScale.z);
-            speedMove = speedRamp;
+            animator.SetBool("isRamping", true);
+            speedMove = speedCrouch;
         }
         if (Input.GetKeyUp(KeyCode.V))
         {
-            playerTransform.localScale = new Vector3(playerTransform.localScale.x, normalHeight, playerTransform.localScale.z);
-            speedMove = 4;
+            animator.SetBool("isRamping", false);
+            speedMove = 5;
         }
     }
 }

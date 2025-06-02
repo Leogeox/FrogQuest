@@ -13,10 +13,12 @@ public class GrabController : MonoBehaviour
     public LayerMask _layerIndex;
 
     AudioManager audioManager;
+    public Animator animator;
 
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -43,6 +45,7 @@ public class GrabController : MonoBehaviour
             grabbedObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
             grabbedObject.transform.position = _grabPoint.position;
             grabbedObject.transform.SetParent(transform);
+            animator.SetBool("isGrabbed", true);
         }
     }
 
@@ -51,6 +54,7 @@ public class GrabController : MonoBehaviour
         grabbedObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
         grabbedObject.transform.SetParent(null);
         grabbedObject = null;
+        animator.SetBool("isGrabbed", false);
 
         if (gameObject.CompareTag("NonGrass"))
         {
