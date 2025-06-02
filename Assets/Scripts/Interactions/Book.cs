@@ -28,14 +28,12 @@ public class Book : MonoBehaviour
     public void PauseGame()
     {
         Panel.SetActive(true);
-        Time.timeScale = 0f;
         Opened = true;
     }
 
     public void ResumeGame()
     {
         Panel.SetActive(false);
-        Time.timeScale = 1f;
         Opened = false;
     }
 

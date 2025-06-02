@@ -1,11 +1,10 @@
 fileFormatVersion: 2
-guid: fec030a9dc535774182c1b8e0c3588a4
+guid: 1d732ca629668784caeffefa62c24398
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4111862306789257460
-    second: These Virtual Backgrounds Will Make You The Star Of Your Zoom Meetings
-      _ iHeart_0
+      213: -6834524911116659543
+    second: chest_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,31 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: These Virtual Backgrounds Will Make You The Star Of Your Zoom Meetings
-        _ iHeart_0
+      name: chest_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 736
-        height: 415
+        x: 90
+        y: 170
+        width: 1137
+        height: 946
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0f028e740bbfe6c0800000000000000
-      internalID: -4111862306789257460
+      spriteID: 9a45550edc3e621a0800000000000000
+      internalID: -6834524911116659543
       vertices: []
       indices: 
       edges: []
@@ -149,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      These Virtual Backgrounds Will Make You The Star Of Your Zoom Meetings _ iHeart_0: -4111862306789257460
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
