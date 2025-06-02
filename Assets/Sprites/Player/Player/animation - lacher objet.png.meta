@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 97ab0d9b0301c004e9ef659ce652420c
+guid: f689f79901ed55d49a067eee8aba55c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3461030474429673960
-    second: 2d0b20f9-6add-4222-ae1a-094724f90333_0
+      213: 4364004252289642556
+    second: animation - lacher objet_0
+  - first:
+      213: 1757159221221519979
+    second: animation - lacher objet_1
+  - first:
+      213: 131011170136901684
+    second: animation - lacher objet_2
+  - first:
+      213: 4748194781617773480
+    second: animation - lacher objet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,40 +105,93 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 2d0b20f9-6add-4222-ae1a-094724f90333_0
+      name: animation - lacher objet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 225
-        height: 117
+        x: 21
+        y: 236
+        width: 537
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e1be2111ec080030800000000000000
-      internalID: 3461030474429673960
+      spriteID: c30b408febe009c30800000000000000
+      internalID: 4364004252289642556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - lacher objet_1
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 221
+        width: 501
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62f5ba700fa26810800000000000000
+      internalID: 1757159221221519979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - lacher objet_2
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 206
+        width: 451
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4384e9117f171d100800000000000000
+      internalID: 131011170136901684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - lacher objet_3
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 193
+        width: 429
+        height: 831
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abd0b23ff9f4e140800000000000000
+      internalID: 4748194781617773480
       vertices: []
       indices: 
       edges: []
@@ -138,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d95dc69524981e74aaedb2b1a59ee026
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -147,8 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      2d0b20f9-6add-4222-ae1a-094724f90333_0: 3461030474429673960
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

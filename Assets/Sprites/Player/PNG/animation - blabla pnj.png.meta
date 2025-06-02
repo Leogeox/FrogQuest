@@ -1,0 +1,867 @@
+fileFormatVersion: 2
+guid: d655b34d79772af4ba5ff0c83b701544
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 63198573622986464
+    second: animation - blabla pnj_0
+  - first:
+      213: 4587701157578938200
+    second: animation - blabla pnj_1
+  - first:
+      213: 2276217541138109156
+    second: animation - blabla pnj_2
+  - first:
+      213: 3079534541772308742
+    second: animation - blabla pnj_3
+  - first:
+      213: 4670775595245016602
+    second: animation - blabla pnj_4
+  - first:
+      213: 7838430343263916875
+    second: animation - blabla pnj_5
+  - first:
+      213: 8937489134949393494
+    second: animation - blabla pnj_6
+  - first:
+      213: 4666386194039494951
+    second: animation - blabla pnj_7
+  - first:
+      213: -1526745352308865144
+    second: animation - blabla pnj_8
+  - first:
+      213: -4885461270404114141
+    second: animation - blabla pnj_9
+  - first:
+      213: 5558078082853182789
+    second: animation - blabla pnj_10
+  - first:
+      213: -4524421386618788674
+    second: animation - blabla pnj_11
+  - first:
+      213: 1229139715787121036
+    second: animation - blabla pnj_12
+  - first:
+      213: 6923146727281936352
+    second: animation - blabla pnj_13
+  - first:
+      213: -2397180623987078882
+    second: animation - blabla pnj_14
+  - first:
+      213: -7489728693982300959
+    second: animation - blabla pnj_15
+  - first:
+      213: 8327858367758913937
+    second: animation - blabla pnj_16
+  - first:
+      213: 4079781997247057267
+    second: animation - blabla pnj_17
+  - first:
+      213: 2209076302951826630
+    second: animation - blabla pnj_18
+  - first:
+      213: -8960370335931228704
+    second: animation - blabla pnj_19
+  - first:
+      213: -5793042959294511408
+    second: animation - blabla pnj_20
+  - first:
+      213: 8009827992993784910
+    second: animation - blabla pnj_21
+  - first:
+      213: 5481198966139104967
+    second: animation - blabla pnj_22
+  - first:
+      213: -6610135531023916314
+    second: animation - blabla pnj_23
+  - first:
+      213: -450168683785908062
+    second: animation - blabla pnj_24
+  - first:
+      213: 6590858043162417611
+    second: animation - blabla pnj_25
+  - first:
+      213: 5331745012752133184
+    second: animation - blabla pnj_26
+  - first:
+      213: 4456445656380348955
+    second: animation - blabla pnj_27
+  - first:
+      213: 4595808229734373644
+    second: animation - blabla pnj_28
+  - first:
+      213: -389234312953259922
+    second: animation - blabla pnj_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animation - blabla pnj_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1199
+        width: 446
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e60c1394c680e000800000000000000
+      internalID: 63198573622986464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2039
+        width: 53
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857142965e9caaf30800000000000000
+      internalID: 4587701157578938200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_2
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1199
+        width: 447
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2dc033bcfb69f10800000000000000
+      internalID: 2276217541138109156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_3
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 2039
+        width: 53
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60142e38954bcba20800000000000000
+      internalID: 3079534541772308742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_4
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1199
+        width: 447
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16942438ade1d040800000000000000
+      internalID: 4670775595245016602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_5
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 2039
+        width: 53
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4393ee0ed2b7cc60800000000000000
+      internalID: 7838430343263916875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_6
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1199
+        width: 450
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6546290f307580c70800000000000000
+      internalID: 8937489134949393494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_7
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 2039
+        width: 53
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729d288158552c040800000000000000
+      internalID: 4666386194039494951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_8
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1199
+        width: 451
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887c62de039efcae0800000000000000
+      internalID: -1526745352308865144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_9
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 2039
+        width: 53
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32952addbda533cb0800000000000000
+      internalID: -4885461270404114141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_10
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1199
+        width: 452
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d19528192422d40800000000000000
+      internalID: 5558078082853182789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_11
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2039
+        width: 53
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4286468b60631c0800000000000000
+      internalID: -4524421386618788674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_12
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 1208
+        width: 458
+        height: 837
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81e0da2f08ce0110800000000000000
+      internalID: 1229139715787121036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_13
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 2039
+        width: 53
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e74c8f9445f31060800000000000000
+      internalID: 6923146727281936352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_14
+      rect:
+        serializedVersion: 2
+        x: 3156
+        y: 1208
+        width: 453
+        height: 837
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e190dcc5ce08bbed0800000000000000
+      internalID: -2397180623987078882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_15
+      rect:
+        serializedVersion: 2
+        x: 3508
+        y: 2039
+        width: 53
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e472236f632f0890800000000000000
+      internalID: -7489728693982300959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_16
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 1208
+        width: 449
+        height: 837
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191d806001f729370800000000000000
+      internalID: 8327858367758913937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_17
+      rect:
+        serializedVersion: 2
+        x: 3964
+        y: 2039
+        width: 53
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dc1f26c1c4e9830800000000000000
+      internalID: 4079781997247057267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_18
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1200
+        width: 53
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c44d2f713738ae10800000000000000
+      internalID: 2209076302951826630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_19
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1200
+        width: 53
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed1fde47ae56a380800000000000000
+      internalID: -8960370335931228704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_20
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1200
+        width: 53
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d64ca21f1afa9fa0800000000000000
+      internalID: -5793042959294511408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_21
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 1200
+        width: 53
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44ef5a2f10a82f60800000000000000
+      internalID: 8009827992993784910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_22
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1200
+        width: 53
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cea5f74b61211c40800000000000000
+      internalID: 5481198966139104967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_23
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 1200
+        width: 53
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2a12ca1c41444a0800000000000000
+      internalID: -6610135531023916314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369
+        width: 446
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a09fe997fda0c9f0800000000000000
+      internalID: -450168683785908062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_25
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 369
+        width: 447
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9d8bb687e677b50800000000000000
+      internalID: 6590858043162417611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_26
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 369
+        width: 447
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c2d0e17d92ef940800000000000000
+      internalID: 5331745012752133184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_27
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 369
+        width: 456
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a126596b978dd30800000000000000
+      internalID: 4456445656380348955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_28
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 369
+        width: 453
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09522d3c3797cf30800000000000000
+      internalID: 4595808229734373644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - blabla pnj_29
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 369
+        width: 450
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6817026479299af0800000000000000
+      internalID: -389234312953259922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

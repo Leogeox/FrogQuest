@@ -25,7 +25,7 @@ public class InventoryHolder : MonoBehaviour
         Debug.Log("Key added");
         keyList.Add(keyColor);
         OnKeyChanged?.Invoke(this, EventArgs.Empty);
-        audioManager.PlaySFX(audioManager.keyPickup);
+        // audioManager.PlaySFX(audioManager.keyPickup);
     }
 
     public bool ContainsKey(Key.KeyColor keyColor)

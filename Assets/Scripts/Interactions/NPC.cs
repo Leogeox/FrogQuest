@@ -19,9 +19,16 @@ public class NPC : MonoBehaviour
     private int index;
     public GameObject contBtn;
     public float wordSpeed;
+    PlayerContollers player;
     AudioManager audioManager;
+    Animator animator;
 
     [SerializeField] private GrabbingTongue tongue;
+
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Update()
     {
@@ -40,6 +47,7 @@ public class NPC : MonoBehaviour
                     dialogueText.text = string.Empty; // Clear text before typing
                     portraitImage.sprite = portrait[index];
                     tongue.enabled = false; 
+                    animator.SetBool("isTalking", true);
                     // audioManager.PlaySFX(audioManager.NPCtalk);
                     StartCoroutine(Typing());
                 }
@@ -54,6 +62,7 @@ public class NPC : MonoBehaviour
             dialoguePanel.SetActive(false);
             contBtn.SetActive(false);
             tongue.enabled = true;
+             animator.SetBool("isTalking", false);
         }
     }
 
@@ -87,6 +96,7 @@ public class NPC : MonoBehaviour
             speakerName.text = Name[index];
             portraitImage.sprite = portrait[index];
             tongue.enabled = false;
+            animator.SetBool("isTalking", true);
             // audioManager.PlaySFX(audioManager.NPCtalk);
             contBtn.SetActive(true);
             StartCoroutine(Typing());
@@ -95,6 +105,7 @@ public class NPC : MonoBehaviour
         {
             zeroText();
             dialoguePanel.SetActive(false);
+             animator.SetBool("isTalking", false);
         }
     }
 

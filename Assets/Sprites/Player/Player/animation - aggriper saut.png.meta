@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: 5c8c5f0630e823a429dd5712330f9db9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4715613052903925265
+    second: animation - aggriper saut_0
+  - first:
+      213: -6243039762318890553
+    second: animation - aggriper saut_1
+  - first:
+      213: 734548607079418136
+    second: animation - aggriper saut_2
+  - first:
+      213: -8399325910161293192
+    second: animation - aggriper saut_3
+  - first:
+      213: 1668358984787450689
+    second: animation - aggriper saut_4
+  - first:
+      213: -6773921051253551130
+    second: animation - aggriper saut_5
+  - first:
+      213: -4875823671092615904
+    second: animation - aggriper saut_6
+  - first:
+      213: -5744015956340537697
+    second: animation - aggriper saut_7
+  - first:
+      213: -2028000655194174838
+    second: animation - aggriper saut_8
+  - first:
+      213: 6040518504035857486
+    second: animation - aggriper saut_9
+  - first:
+      213: -9177233265304048740
+    second: animation - aggriper saut_10
+  - first:
+      213: -3410888836930006273
+    second: animation - aggriper saut_11
+  - first:
+      213: 8033733469437780991
+    second: animation - aggriper saut_12
+  - first:
+      213: -6069685900949687099
+    second: animation - aggriper saut_13
+  - first:
+      213: 2272543257860565822
+    second: animation - aggriper saut_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animation - aggriper saut_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3264
+        width: 429
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9577ba9e6ce8eb0800000000000000
+      internalID: -4715613052903925265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - aggriper saut_1
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 3289
+        width: 453
+        height: 795
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9e758c9644c59a0800000000000000
+      internalID: -6243039762318890553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - aggriper saut_2
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 3315
+        width: 475
+        height: 763
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8190a3bf014a13a00800000000000000
+      internalID: 734548607079418136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - aggriper saut_3
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 3342
+        width: 496
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8700a1416999f6b80800000000000000
+      internalID: -8399325910161293192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - aggriper saut_4
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 3311
+        width: 542
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b561648a3372710800000000000000
+      internalID: 1668358984787450689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - aggriper saut_5
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 3279
+        width: 615
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efcd7391b23ef1a0800000000000000
+      internalID: -6773921051253551130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - aggriper saut_6
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 3250
+        width: 549
+        height: 841
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02565115438955cb0800000000000000
+      internalID: -4875823671092615904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - aggriper saut_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2437
+        width: 582
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96852abbe72940b0800000000000000
+      internalID: -5744015956340537697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - aggriper saut_8
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 2453
+        width: 612
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a44ee16281bd3e0800000000000000
+      internalID: -2028000655194174838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - aggriper saut_9
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 2471
+        width: 637
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e443b3c439b34d350800000000000000
+      internalID: 6040518504035857486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - aggriper saut_10
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 2460
+        width: 589
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b67a0e7fae3a080800000000000000
+      internalID: -9177233265304048740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - aggriper saut_11
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 2465
+        width: 579
+        height: 764
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2117aaca61aa0d0800000000000000
+      internalID: -3410888836930006273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - aggriper saut_12
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2470
+        width: 567
+        height: 759
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff36102a60e8d7f60800000000000000
+      internalID: 8033733469437780991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - aggriper saut_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1664
+        width: 557
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c472b7e4d424cba0800000000000000
+      internalID: -6069685900949687099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - aggriper saut_14
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1671
+        width: 547
+        height: 745
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bec757d02b98f10800000000000000
+      internalID: 2272543257860565822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

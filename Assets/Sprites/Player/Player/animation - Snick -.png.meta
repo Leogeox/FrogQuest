@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: af222187cd5046741947b943a16d01b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5629510520429348869
+    second: animation - Snick -_0
+  - first:
+      213: -8525220778317012483
+    second: animation - Snick -_1
+  - first:
+      213: 4579678440885216359
+    second: animation - Snick -_2
+  - first:
+      213: 7265015705426295347
+    second: animation - Snick -_3
+  - first:
+      213: -3353946183208124756
+    second: animation - Snick -_4
+  - first:
+      213: 768119491965293871
+    second: animation - Snick -_5
+  - first:
+      213: 2818326298950326018
+    second: animation - Snick -_6
+  - first:
+      213: 5314891723178031131
+    second: animation - Snick -_7
+  - first:
+      213: 4907121857414860986
+    second: animation - Snick -_8
+  - first:
+      213: -2908294891168690925
+    second: animation - Snick -_9
+  - first:
+      213: -3735409108215702329
+    second: animation - Snick -_10
+  - first:
+      213: -1101728714393608603
+    second: animation - Snick -_11
+  - first:
+      213: -3167774971702231734
+    second: animation - Snick -_12
+  - first:
+      213: -6791202620442072606
+    second: animation - Snick -_13
+  - first:
+      213: 2378239035348514164
+    second: animation - Snick -_14
+  - first:
+      213: 2262342116430328070
+    second: animation - Snick -_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animation - Snick -_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 429
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7fb721206ffd1b0800000000000000
+      internalID: -5629510520429348869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_1
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1240
+        width: 432
+        height: 796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1a2a4eed450b980800000000000000
+      internalID: -8525220778317012483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_2
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1265
+        width: 433
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7646a7e17494e8f30800000000000000
+      internalID: 4579678440885216359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_3
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1294
+        width: 434
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a7199da4582d460800000000000000
+      internalID: 7265015705426295347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_4
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1294
+        width: 439
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae3a1267b36471d0800000000000000
+      internalID: -3353946183208124756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_5
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 1294
+        width: 444
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2515a7bb98e8aa00800000000000000
+      internalID: 768119491965293871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_6
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 1292
+        width: 448
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207531636d4bc1720800000000000000
+      internalID: 2818326298950326018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_7
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 1292
+        width: 450
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18b0bbdcd942c940800000000000000
+      internalID: 5314891723178031131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 461
+        width: 450
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab094cc8459991440800000000000000
+      internalID: 4907121857414860986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_9
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 461
+        width: 450
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d8ecd8439a3a7d0800000000000000
+      internalID: -2908294891168690925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_10
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 461
+        width: 450
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc5b060539292cc0800000000000000
+      internalID: -3735409108215702329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_11
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 461
+        width: 450
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e98bb429fd5b0f0800000000000000
+      internalID: -1101728714393608603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_12
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 461
+        width: 448
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4db053627dc904d0800000000000000
+      internalID: -3167774971702231734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_13
+      rect:
+        serializedVersion: 2
+        x: 2644
+        y: 461
+        width: 450
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e929d2b23dc0c1a0800000000000000
+      internalID: -6791202620442072606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_14
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 434
+        width: 444
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4757aec5dc3310120800000000000000
+      internalID: 2378239035348514164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation - Snick -_15
+      rect:
+        serializedVersion: 2
+        x: 3630
+        y: 408
+        width: 438
+        height: 795
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6013c322b24756f10800000000000000
+      internalID: 2262342116430328070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

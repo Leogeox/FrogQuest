@@ -122,10 +122,6 @@ public class PlayerContollers : MonoBehaviour
 
     }
     
-    // private bool IsGrounded()
-    // {
-    //     return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-    // }
 
     private void Flip()
     {
@@ -258,17 +254,17 @@ public class PlayerContollers : MonoBehaviour
 
     void Slide()
     {
-        Vector3 direction = Input.GetAxis("Horizontal") * Vector2.right;
-
         isOnWall = Physics2D.OverlapBox(wallCheckPoint.position, wallCheckSize, 0, groundLayer);
 
         if (isOnWall && rb.linearVelocity.y < 0)
         {
             isSliding = true;
+            animator.SetBool("isSliding", isSliding);
         }
         else
         {
             isSliding = false;
+            animator.SetBool("isSliding", isSliding);
         }
 
         if (isSliding)
