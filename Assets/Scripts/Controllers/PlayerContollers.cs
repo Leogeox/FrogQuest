@@ -21,6 +21,7 @@ public class PlayerContollers : MonoBehaviour
     [SerializeField] public int limitJump = 1;
     [SerializeField] public float forcejump = 8;
     public bool isGrounded = true;
+    private int _currentJump;
 
 
     [Header("WallSliding")]
@@ -44,8 +45,8 @@ public class PlayerContollers : MonoBehaviour
     [Header("Crouch/Ramp")]
 
     public float crouchHeight, crouchWidth, rampHeight, rampWidth;
-    public int speedCrouch = 4;
-    public int speedRamp = 3;
+    public int speedCrouch = 3;
+    public int speedRamp = 2;
 
 
     AudioManager audioManager;
@@ -82,6 +83,7 @@ public class PlayerContollers : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcejump);
             isGrounded = false;
+            _currentJump++;
             animator.SetBool("isJumping", true);
         }
         else
@@ -340,7 +342,7 @@ public class PlayerContollers : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.V))   
         {
             animator.SetBool("isRamping", true);
-            speedMove = speedCrouch;
+            speedMove = speedRamp;
         }
         if (Input.GetKeyUp(KeyCode.V))
         {

@@ -10,7 +10,7 @@ public class ToggleSwitch : MonoBehaviour
     {
         if (col.CompareTag("Player"))
         {
-            door.GetComponent<BoxCollider2D>().enabled = false;
+            door.gameObject.SetActive(false);
             // audioManager.PlaySFX(audioManager.keyDoorOpen);
             animator.SetBool("Activate", true);
         }

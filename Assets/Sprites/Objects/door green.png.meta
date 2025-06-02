@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 53806bd2cf81d0341b75571f7869fa38
+guid: 4a00f2ef0c57cf3459b58b35276754b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5154189640090123692
-    second: flag_0
+      213: -4440511940310838240
+    second: door green_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flag_0
+      name: door green_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 173
         y: 0
-        width: 626
-        height: 626
+        width: 172
+        height: 862
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4520e6594d3a878b0800000000000000
-      internalID: -5154189640090123692
+      spriteID: 02454e8cae12062c0800000000000000
+      internalID: -4440511940310838240
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      flag_0: -5154189640090123692
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

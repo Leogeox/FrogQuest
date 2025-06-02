@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      grenouille pnj_0: 4292121467469278801
+      grenouille pnj_1: 8782783552583686880
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

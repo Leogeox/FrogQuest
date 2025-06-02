@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 47aa419c67053af43a058ff206f218c0
+guid: 131dbb80c767f8946a835b67e4d06dd7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8593207403870248809
-    second: profil picture_0
+      213: 8414002083425032632
+    second: door red 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: profil picture_0
+      name: door red 1_0
       rect:
         serializedVersion: 2
-        x: 46
+        x: 173
         y: 0
-        width: 363
-        height: 409
+        width: 172
+        height: 862
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96f51f4ea94314770800000000000000
-      internalID: 8593207403870248809
+      spriteID: 8b912f9c05a84c470800000000000000
+      internalID: 8414002083425032632
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      profil picture_0: 8593207403870248809
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -105,7 +105,7 @@ public class NPC : MonoBehaviour
         {
             zeroText();
             dialoguePanel.SetActive(false);
-             animator.SetBool("isTalking", false);
+            animator.SetBool("isTalking", false);
         }
     }
 
